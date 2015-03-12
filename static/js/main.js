@@ -28,9 +28,6 @@ $(document).ready(function(){
         });
     }
 
-   
-
-
 
     //Tooltip
     $("a").mouseover(function(){
@@ -70,7 +67,6 @@ $(document).ready(function(){
         var tooltip = $(".tooltip");       
         tooltip.remove();
     });
-
 
 });
 

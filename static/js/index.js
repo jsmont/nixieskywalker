@@ -21,11 +21,12 @@
 			restrict:'E',
 			templateUrl: 'directives/post-list.html',
 			controller:function(){
+				var postHeight = (window.innerWidth - 250)/5;
 				var that = this;
 				that.posts = [
 				];
 				for(var i = 0; i < 202;++i){
-					that.posts.push({img:'img/work'+Math.floor(Math.random()*5 + 1)+'.jpg',title:"Wololo"+Math.floor(Math.random()*5 + 1)})
+					that.posts.push({style: {"background-image":"url(\"/img/work"+Math.floor(Math.random()*16 + 1)+".jpg\")",height:postHeight+ "px"},title:"Wololo"+Math.floor(Math.random()*5 + 1)})
 					console.dir(that.posts[i]);
 				}
 

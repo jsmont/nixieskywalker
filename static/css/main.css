@@ -131,14 +131,28 @@ h5, h6          { font-weight: bolder }
         z-index: 9999;
     }
 
-    header .logo{
-        margin-top: 100px;
+    header .logo-img{
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 250000000px;
+    }
+
+    header .logo-img img{
+        width: 100%;
+    }
+
+    header .logo-text label{
+        font-style: italic;
+        font-size: 15px;
+        color: #969595;
     }
 
     header nav ul{
         display: block;
         overflow: hidden;
-        margin-top: 100px;
+        margin-top: 40px;
         list-style: none;
     }
 
@@ -157,7 +171,10 @@ h5, h6          { font-weight: bolder }
 
     header nav ul li a:hover,
     header nav ul li a.selected{
+        font-size: 15px;
         color: #969595;
+        text-align: center;
+        padding: 5px;
     }
 
     header .footer{
@@ -289,16 +306,19 @@ h5, h6          { font-weight: bolder }
 /*  Home/portfolio  */
 .main .work{
     display: block;
-    width: 25%;
-    height: auto;
+    width: 20%;
     float: left;
     position: relative;
-    overflow: hidden;
+    overflow: hidden hidden;
+    background-size: cover;
+    background-position: center center;
 }
 
 .main .work .media{
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
     vertical-align: middle;
+    : middle;
 }
 
 .main .work .caption{
@@ -545,17 +565,28 @@ h5, h6          { font-weight: bolder }
         padding: 0;
         position: relative;
     }
-    header .logo{
-        margin: 40px 0 0 30px;
-        float: left;
+    header .logo-img{
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        margin-top:  30px ;
+        overflow: hidden;
+        border-radius: 250000000px;
     }
+
+    header .logo-img img{
+        width: 100%;
+    }
+
     header .footer{
         display: none;
     }
     header #menu_icon,
     header .close_menu{
-        float: right;
-        margin: 30px 30px 0 0;
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }    
     header nav{
         width: 100%;
