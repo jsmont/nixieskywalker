@@ -21,7 +21,7 @@
 			restrict:'E',
 			templateUrl: 'directives/post-list.html',
 			controller:function(){
-				var postHeight = window.innerWidth > 1000? (window.innerWidth - 250)/5 : window.innerWidth;
+				var postHeight = window.innerWidth > 1100? (window.innerWidth - 250)/5 : window.innerWidth > 550? window.innerWidth/2:window.innerWidth;
 				var that = this;
 				that.posts = [
 				];

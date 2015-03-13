@@ -638,7 +638,6 @@ h5, h6          { font-weight: bolder }
 
     .main .work{
         width: 50%;
-        height: window.innerWidth;
     }
     .main{
         width: 100%;
