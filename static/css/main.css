@@ -221,8 +221,8 @@ h5, h6          { font-weight: bolder }
         background-position: -31px 0;
     }
 
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
+    header ul.social li a.deviantart,
+    header ul.social li a.deviantart:hover{
         background-position: -62px 0;
     }
 
