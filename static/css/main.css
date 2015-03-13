@@ -307,6 +307,7 @@ h5, h6          { font-weight: bolder }
 .main .work{
     display: block;
     width: 20%;
+    height: auto;
     float: left;
     position: relative;
     overflow: hidden hidden;
@@ -579,6 +580,15 @@ h5, h6          { font-weight: bolder }
         width: 100%;
     }
 
+    header .logo-text label {
+        display: none;
+    }
+
+    header .logo-text h2 {
+        width: 100%;
+        text-align: center;
+    }
+
     header .footer{
         display: none;
     }
@@ -623,10 +633,12 @@ h5, h6          { font-weight: bolder }
     }
     .show_menu{
         display: block;
+        margin-top: 160px;
     }
 
     .main .work{
         width: 50%;
+        height: window.innerWidth;
     }
     .main{
         width: 100%;
